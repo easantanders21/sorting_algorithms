@@ -1,20 +1,5 @@
 #include <stdlib.h>
 #include <stdio.h>
-
-/**
- * swap - swaps positions
- *
- * @xp: left
- * @yp: right
- *
- */
-void swap(int *xp, int *yp)
-{
-	int temp = *xp;
-	*xp = *yp;
-	*yp = temp;
-}
-
 /**
  * print_array - Prints an array of integers
  *
