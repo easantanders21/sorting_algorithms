@@ -55,10 +55,12 @@ void swap_node(listint_t **head, listint_t *node_1, listint_t *node_2)
  */
 void insertion_sort_list(listint_t **list)
 {
-	listint_t *tmp1 = (*list), *tmp2 = (*list);
+	listint_t *tmp1 = NULL, *tmp2 = NULL;
 
 	if (list == NULL || (*list)->next == NULL)
 		return;
+
+	tmp1 = (*list), tmp2 = (*list);
 
 	while (tmp1->next != NULL)
 	{
