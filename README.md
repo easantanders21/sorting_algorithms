@@ -1,3 +1,4 @@
+
 # 0x1B. C - Sorting algorithms & Big O
 ***
 ## This is a README.md for the repository 0x1B. C - Sorting algorithms & Big O
@@ -5,6 +6,7 @@
 For Holberton School
 Cohort 16.
 ```
+
 ### General
 ### Sorting algorithms
 #### Selection sort:
@@ -21,8 +23,6 @@ Cohort 16.
 ![Big O notation](https://miro.medium.com/max/1200/1*9AAzjRHOxG4RunA3chb5_w.gif)
 
 ### More Info
-
-
 ```
 /**
  * struct listint_s - Doubly linked list node
@@ -39,7 +39,7 @@ Cohort 16.
 	} listint_t;
 ```
 
-## Files included
+### Files included
 
 | File                 | Details                                    |
 |--------------------- | ------------------------------------------ |
@@ -50,7 +50,7 @@ Cohort 16.
 | [](./)  |            |
 
 ### Author
-***
+
 
 *Holberton School Student*
 
