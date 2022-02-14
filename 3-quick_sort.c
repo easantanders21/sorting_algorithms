@@ -9,48 +9,21 @@ void swap(int *xp, int *yp)
 	*yp = temp;
 }
 
-void qs(int*array, int lim_left, int lim_right)
+void lomuto_partition(int *array, int lim_left, int lim_right, size_t size)
 {
-	int pivot = array[lim_right];
-	int max = lim_left, min = lim_left, index_pivot = 0;
+	int pivot = lim_right, min = lim_left, max = lim_left;
 
-	while (min != lim_right)
-        {
-		while (1)
-		{
-			if (array[max] >= pivot)
-				break;
-			max++;
-			min++;
-		}
-		while (array[min] >= pivot)
-		{
-			if (array[min] <= pivot)
-				break;
-			if (min < lim_right)
-				min++;
-		}
-		if (array[max] >= array[min])
-		{
-			if (min == lim_right)
-				index_pivot = max;
-			swap(&array[min], &array[max]);
-		}
-		while (max < lim_right)
-		{
-			max++;
-			if (array[max] > pivot || max == min)
-				break;
-		}
-	}
-	printf("salio del ciclo externo %d \n", index_pivot);
-	if (lim_left < 10)
+	while ()
 	{
-		printf("entro a la recursion\n");
-		qs(array, lim_left, index_pivot - 1);
+		
 	}
+}
+
+void qs(int*array, int lim_left, int lim_right, size_t size)
+{
+	int index_pivot = lomuto_partition(array, lim_left, lim_right, size);
 }
 void quick_sort(int *array, size_t size)
 {
-	qs(array, 0, size - 1);
+	qs(array, 0, size - 1, size);
 }
