@@ -1,6 +1,8 @@
 # 0x1B. C - Sorting algorithms & Big O
 ***
+
 ## This is a README.md for the repository 0x1B. C - Sorting algorithms & Big O
+
 ```
 For Holberton School
 Cohort 16.
@@ -49,9 +51,8 @@ Cohort 16.
 | [](./)  |            |
 
 ### Author
-
-
-### Holberton School Student*
+***
+*Holberton School Student*
 
 Edgar Santander - [Github](https://github.com/easantanders21) - [Twitter](https://twitter.com/EdgarSantande20)
 
