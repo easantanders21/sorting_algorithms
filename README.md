@@ -23,7 +23,8 @@ Cohort 16.
 ### More Info
 
 
-```/**
+```
+/**
  * struct listint_s - Doubly linked list node
  *
  * @n: Integer stored in the node
@@ -35,7 +36,8 @@ Cohort 16.
 	const int n;
 	struct listint_s *prev;
 	struct listint_s *next;
-	} listint_t;```
+	} listint_t;
+```
 
 ## Files included
 
