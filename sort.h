@@ -20,6 +20,7 @@ void print_array(const int *array, size_t size);
 void print_list(const listint_t *list);
 void swap(int *xp, int *yp);
 void swap_node(listint_t **head, listint_t *node_1, listint_t *node_2);
+
 /*task functions*/
 void bubble_sort(int *array, size_t size);
 void insertion_sort_list(listint_t **list);
