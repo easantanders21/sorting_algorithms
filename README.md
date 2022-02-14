@@ -1,4 +1,3 @@
-
 # 0x1B. C - Sorting algorithms & Big O
 ***
 ## This is a README.md for the repository 0x1B. C - Sorting algorithms & Big O
@@ -23,7 +22,7 @@ Cohort 16.
 ![Big O notation](https://miro.medium.com/max/1200/1*9AAzjRHOxG4RunA3chb5_w.gif)
 
 ### More Info
-```
+
 /**
  * struct listint_s - Doubly linked list node
  *
@@ -32,12 +31,12 @@ Cohort 16.
  * @next: Pointer to the next element of the list
  */
  typedef struct listint_s
- {
+{
 	const int n;
 	struct listint_s *prev;
 	struct listint_s *next;
-	} listint_t;
-```
+}listint_t;
+
 
 ### Files included
 
