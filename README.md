@@ -51,8 +51,8 @@ Cohort 16.
 ### Author
 
 
-*Holberton School Student*
+### Holberton School Student*
 
-* Edgar Santander - [Github](https://github.com/easantanders21) - [Twitter](https://twitter.com/EdgarSantande20)
+Edgar Santander - [Github](https://github.com/easantanders21) - [Twitter](https://twitter.com/EdgarSantande20)
 
-* Juan Sebastian Posada  - [Github](https://github.com/Juansepo13) - [Twiter](https://twitter.com/@JuanSeb35904130)
+Juan Sebastian Posada  - [Github](https://github.com/Juansepo13) - [Twiter](https://twitter.com/@JuanSeb35904130)
