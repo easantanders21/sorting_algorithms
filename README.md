@@ -1,15 +1,18 @@
 # 0x1B. C - Sorting algorithms & Big O
 ***
-
 ## This is a README.md for the repository 0x1B. C - Sorting algorithms & Big O
 
-```
 For Holberton School
 Cohort 16.
-```
 
 ### General
+* At least four different sorting algorithms
+* What is the Big O notation, and how to evaluate the time complexity of an algorithm
+* How to select the best sorting algorithm for a given input
+* What is a stable sorting algorithm
+
 ### Sorting algorithms
+
 #### Selection sort:
 <a href="selection sort"><img src="https://miro.medium.com/max/1400/1*5WXRN62ddiM_Gcf4GDdCZg.gif"  height="300" width="600" ></a>
 #### Bubble sort:
@@ -25,6 +28,7 @@ Cohort 16.
 
 ### More Info
 
+```
 /**
  * struct listint_s - Doubly linked list node
  *
@@ -38,13 +42,14 @@ Cohort 16.
 	struct listint_s *prev;
 	struct listint_s *next;
 }listint_t;
+```
 
 
 ### Files included
 
 | File                 | Details                                    |
 |--------------------- | ------------------------------------------ |
-| [](./a) |            |
+| [0-bubble_sort](./a) |            |
 | [](./b) |            |
 | [](./c) |            |
 | [](./)  |            |
