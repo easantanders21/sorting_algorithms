@@ -11,36 +11,43 @@ void swap(int *xp, int *yp)
 
 void qs(int*array, int lim_left, int lim_right)
 {
-	int pivot = array[lim_left];
-	int left = lim_left + 1, right = lim_right;
+	int pivot = array[lim_right];
+	int max = lim_left, min = lim_left, index_pivot = 0;
 
-	while (left < right)
-	{
-		while (array[right] > pivot && right > left)
-			right--;
-		while (array[left] < pivot && left < right)
-			left++;
-
-
-		if (left < right)
+	while (min != lim_right)
+        {
+		while (1)
 		{
-			swap(&array[left], &array[right]);
-			print_array(array, 10);
+			if (array[max] >= pivot)
+				break;
+			max++;
+			min++;
 		}
-
+		while (array[min] >= pivot)
+		{
+			if (array[min] <= pivot)
+				break;
+			if (min < lim_right)
+				min++;
+		}
+		if (array[max] >= array[min])
+		{
+			if (min == lim_right)
+				index_pivot = max;
+			swap(&array[min], &array[max]);
+		}
+		while (max < lim_right)
+		{
+			max++;
+			if (array[max] > pivot || max == min)
+				break;
+		}
 	}
-	if (right >= lim_left && array[right] < array[lim_left])
+	printf("salio del ciclo externo %d \n", index_pivot);
+	if (lim_left < 10)
 	{
-		swap(&array[left], &array[lim_left]);
-		print_array(array, 10);
-	}
-	if (lim_left < right)
-	{
-		qs(array, lim_left, right - 1);
-	}
-	if (lim_right > left)
-	{
-		qs(array, left, lim_right);
+		printf("entro a la recursion\n");
+		qs(array, lim_left, index_pivot - 1);
 	}
 }
 void quick_sort(int *array, size_t size)
