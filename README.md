@@ -6,8 +6,19 @@ For Holberton School
 Cohort 16.
 ```
 ### General
-*
-*
+### Sorting algorithms
+#### Selection sort:
+<a href="selection sort"><img src="https://miro.medium.com/max/1400/1*5WXRN62ddiM_Gcf4GDdCZg.gif"  height="300" width="600" ></a>
+#### Bubble sort:
+<a href="Bubble sort"><img src="https://miro.medium.com/max/401/1*7seGXJi3te9beNfpAvFXEQ.gif"  height="300" width="600" ></a>
+#### Insertion sort:
+<a href="insertion sort"><img src="https://upload.wikimedia.org/wikipedia/commons/9/9c/Insertion-sort-example.gif"  height="300" width="600" ></a>
+### Merge sort:
+<a href="merge sort"><img src="https://mohtashims.files.wordpress.com/2010/07/merge-sort.gif"  height="300" width="600" ></a>
+#### Quick sort:
+<a href="Quick sort"><img src="https://miro.medium.com/max/625/1*MqYi387Jyd16H2GHWyn46Q.gif"  height="300" width="600" ></a>
+### Big O notation
+![Big O notation](https://miro.medium.com/max/1200/1*9AAzjRHOxG4RunA3chb5_w.gif)
 
 ### More Info
 
