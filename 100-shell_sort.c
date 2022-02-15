@@ -1,10 +1,10 @@
 #include "sort.h"
 
 /**
- *swap - the positions of two elements into an array
+ *swap3 - swap two elements
  *@array: array
- *@item1: array element
- *@item2: array element
+ *@x: array element
+ *@y: array element
  */
 void swap3(int *array, int x, int y)
 {
@@ -17,8 +17,7 @@ void swap3(int *array, int x, int y)
 }
 
 /**
- * shell_sort - function that sorts an array of integers in ascending
- * order using the Shell sort algorithm, using the Knuth sequence
+ * shell_sort - function that sorts an array of integers
  * @size: size of the array
  * @array: list with numbers
  */
