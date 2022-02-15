@@ -6,21 +6,23 @@
  *@item1: array element
  *@item2: array element
  */
-void swap3(int *array, int item1, int item2)
+void swap3(int *array, int x, int y)
 {
 
 	int tmp;
 
-	tmp = array[item1];
-	array[item1] = array[item2];
-	array[item2] = tmp;
+	tmp = array[x];
+	array[x] = array[y];
+	array[y] = tmp;
 }
+
 /**
  * shell_sort - function that sorts an array of integers in ascending
  * order using the Shell sort algorithm, using the Knuth sequence
  * @size: size of the array
  * @array: list with numbers
  */
+
 void shell_sort(int *array, size_t size)
 {
 	size_t knuth = 1, i, index = 0;
